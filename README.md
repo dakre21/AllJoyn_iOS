@@ -41,8 +41,8 @@ This repository contains a build script for alljoyn's iOS IoT Framework.
   b) Enable C++ Runtime Types to NO
 
 ## StarterAlljoyn Project
-1. This is a blank project that utilizes Alljoyn's IoT framework
-2. Anyone is open to hack at it!
+- This is a blank project that utilizes Alljoyn's IoT framework
+- Feel free to use it as a reference to get started or fork the project and hack at it
 
 ## Acknowledgements
 - Special thanks to Jeff Blayney for creating the alljoyn script. Details of what the script does can be found at this location: https://allseenalliance.org/framework/documentation/develop/building/ios-osx. We slimmed it out to exclude some of the pre-existing shell commands (ie. OPENSSL_ROOT command does not exist inside of the shell script).
