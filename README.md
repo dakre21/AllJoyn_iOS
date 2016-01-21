@@ -42,7 +42,8 @@ This repository contains a build script for alljoyn's iOS IoT Framework.
 
 ## StarterAlljoyn Project
 - This is a blank project that utilizes Alljoyn's IoT framework
-- Feel free to use it as a reference to get started or fork the project and hack at it
+- Feel free to use it as a reference to get started or fork the project and hack at it. 
+- ** Remember to run the alljoyn script to generate the appropraite AllJoyn files (must have alljoyn-sdk in the same project hierarchy as the StarterAllJoyn project to work... otherwise you're going to have to make some modifications to the project settings)
 
 ## Acknowledgements
 - Special thanks to Jeff Blayney for creating the alljoyn script. Details of what the script does can be found at this location: https://allseenalliance.org/framework/documentation/develop/building/ios-osx. We slimmed it out to exclude some of the pre-existing shell commands (ie. OPENSSL_ROOT command does not exist inside of the shell script).
